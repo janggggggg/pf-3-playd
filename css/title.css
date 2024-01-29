@@ -1,0 +1,17 @@
+div#title {
+  width: 100%;
+  height: 1090px;
+}
+div#title .titleani {
+  background-image: url(../img/title_main.png);
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+div#title .titleani img {
+  
+}
+div#title .titleani .slick-list {
+  height: 100%;
+}

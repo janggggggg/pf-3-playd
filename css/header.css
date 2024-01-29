@@ -1,0 +1,87 @@
+header {
+  position: fixed;
+  height: 100px;
+  box-sizing: border-box;
+  z-index: 1;
+  width: 100%;
+}
+header .wrap {
+  align-items: center;
+  height: 100%;
+}
+header .wrap h1 {
+  transform: translateX(130%);
+}
+header .wrap h1 a {
+  width: 139px;
+  height: 27px;
+  display: block;
+  font-size: 0;
+  background-image: url(../img/logo-header.png);
+  background-position: center;
+  background-size: auto;
+}
+header .wrap ul {
+  font-size: 18px;
+  transform: translateX(110%);
+  height: 100px;
+  align-items: center;
+}
+header .wrap ul li {
+  
+}
+header .wrap ul li a {
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+header .wrap ul li a:hover {
+  color: #ea2126;
+  border-bottom: 3px solid;
+  height: 100px;
+}
+header .wrap ul li a:not:last-child:hover{
+  
+}
+header .wrap .sublist {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  display: flex;
+}
+header .wrap .sublist h2 {
+  
+}
+header .wrap .sublist ul {
+  
+}
+header .wrap .sublist ul li {
+  
+}
+header .wrap .sublist ul li a {
+  transform: translateX(-500px);
+  color: #888888;
+  opacity: 0.5;
+}
+header .wrap p{
+  
+}
+header .wrap p a.ham {
+  transform: translateX(-189px);
+  font-size: 0;
+  width: 24px;
+  height: 18px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  display: block;
+}
+header .wrap p a.ham::after{
+  content: "";
+  width: 24px;
+  height: 18px;
+  display: block;
+  border-bottom: 1px solid #fff;
+  transform: translateY(-10px);
+}

@@ -1,0 +1,115 @@
+section#footerB {
+  height: 360px;
+  background-color: black;
+}
+section#footerB .wrap {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr auto 1fr;
+  grid-template-rows: 50px 200px 22px;
+  width: 1200px;
+  height: 360px;
+  align-content: center;
+}
+section#footerB .wrap h1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+section#footerB .wrap h1 a {
+  width: 108px;
+  height: 21px;
+  background-image: url(../img/logo-ft.png);
+  background-size: contain;
+  font-size: 0;
+  transform: translateX(-42px);
+}
+section#footerB .wrap ul.fnb {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+}
+section#footerB .wrap ul.fnb li {
+  
+}
+section#footerB .wrap ul.fnb li a {
+  color: white;
+}
+section#footerB .wrap ul.fnb li a span{
+  border-left: 1px solid #595959;
+  height: 10px;
+  display: inline-block;
+  margin: 0 15px;
+}
+section#footerB .wrap ul.sns {
+  
+  position: relative;
+  transform: translateX(30px);
+}
+section#footerB .wrap ul.sns li {
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+}
+section#footerB .wrap ul.sns li::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/blog.png);
+  display: inline-block;
+  background-size: contain;
+}
+section#footerB .wrap ul.sns li a {
+  
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  position: absolute;
+}
+section#footerB .wrap ul.sns li:th-child(1)::after {
+  background-image: url(../img/blog.png);
+}
+section#footerB .wrap ul.sns li:nth-child(2)::after {
+  background-image: url(../img/insta.png);
+}
+section#footerB .wrap ul.sns li:nth-child(3)::after {
+  background-image: url(../img/youtube.png);
+}
+section#footerB .wrap ul.sns li:nth-child(4)::after {
+  background-image: url(../img/facebook.png);
+}
+section#footerB .wrap address {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  color: white;
+  line-height: 1.8;
+  transform: translateY(30px);
+}
+section#footerB .wrap address a{
+  color: white;
+}
+section#footerB .wrap address .line {
+  border-left: 1px solid #fff;
+  height: 10px;
+  display: inline-block;
+  margin: 0 5px;
+}
+section#footerB .wrap ul.call {
+  grid-column: 4;
+  grid-row: 2 /span 2;
+  justify-content: center;
+  transform: translateX(30px) translateY(-20px);
+}
+section#footerB .wrap ul.call h2 {
+  color: white;
+}
+section#footerB .wrap ul.call h3 {
+  color: white;
+  font-size: 32px;
+  line-height: 2.5;
+}
+section#footerB .wrap ul.call p {
+  color: #595959;
+}
+section#footerB .wrap p {
+  color: #595959;
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}

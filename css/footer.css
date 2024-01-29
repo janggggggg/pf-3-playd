@@ -1,0 +1,45 @@
+section#footerT{
+  background-color: #EA2126;
+  height: 372px;
+}
+section#footerT .wrap{
+  max-width: 1200px;
+}
+section#footerT .wrap p{
+  color: white;
+  position: relative;
+}
+section#footerT .wrap p::after{
+  content: "";
+  background-image: url(../img/icon.png);
+  width: 39px;
+  height: 33px;
+  position: absolute;
+  background-size: contain;
+  bottom: 75%;
+}
+section#footerT .wrap .button{
+  font-size: 22px;
+  padding: 10px 0;
+  width: 1200px;
+  height: 60px;
+  transform: translateY(40px);
+}
+section#footerT .wrap .button .Left{
+  border: 2px solid #fff;
+  color: white;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#footerT .wrap .button .Right{
+  border: 0;
+  margin-left: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #ea2126;
+  min-width: 300px;
+}

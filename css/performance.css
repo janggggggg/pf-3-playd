@@ -1,0 +1,99 @@
+section#performance {
+  height: 870px;
+  position: relative;
+}
+section#performance .per {
+  height: 870px;
+}
+section#performance .per .lef {
+  width: calc(2378px / 3);
+  background-image: url(../img/box-11.png);
+  background-size: cover;
+  background-position: center;
+}
+section#performance .per .lef ul {
+  align-items: center;
+}
+section#performance .per .lef ul p {
+  color: white;
+}
+section#performance .per .lef ul a {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  font-size: 0;
+  border-radius: 50%;
+  transform: translateX(15px) translateY(5px);
+}
+section#performance .per .lef ul a::before {
+  content:"";
+  background-image: url(../img/left-arrow.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: 22px;
+  background-position: center center;
+}
+section#performance .per .mid {
+  width: calc(2378px / 3);
+  text-align: center;
+  background-color: #f7f7f7;
+}
+section#performance .per .mid ul {
+  /*! display: flex; */
+  /*! align-items: center; */
+}
+section#performance .per .mid ul h1 {
+  width: 136px;
+  height: 60px;
+  font-size: 0;
+  margin: 0 auto 10px;
+}
+section#performance .per .mid ul h1:before {
+  content: "";
+  background-image: url(../img/center1.png);
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+section#performance .per .mid ul h2 {
+  line-height: 81px;
+  margin-bottom: 40px;
+}
+
+section#performance .per .mid ul p {
+  
+}
+section#performance .per .righ {
+  width: calc(2378px / 3);
+  background-image: url(../img/box-22.png);
+  background-size: cover;
+  background-position: center;
+}
+section#performance .per .righ ul {
+  
+}
+section#performance .per .righ ul a {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  font-size: 0;
+  border-radius: 50%;
+  transform: translateX(-15px) translateY(10px);
+}
+section#performance .per .righ ul a::before {
+
+  content: "";
+  background-image: url(../img/right-arrow.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: 22px;
+  background-position: center center;
+}
+section#performance .per .righ ul p {
+  color: white;
+}
